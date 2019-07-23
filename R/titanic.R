@@ -1,4 +1,5 @@
 library(tidyverse)
+library(knitr)
 
 TitanicSurvival = read.csv('../data/TitanicSurvival.csv')
 summary(TitanicSurvival)
